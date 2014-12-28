@@ -7,29 +7,29 @@
 #include "font.h"
 
 
-#define LCD_PWR_PIN		2
-#define LCD_PWR_TRIS	TRISD
-#define LCD_PWR_PORT	PORTD
+#define LCD_PWR_PIN 2
+#define LCD_PWR_TRIS TRISD
+#define LCD_PWR_PORT PORTD
 
-#define LCD_SCK_PIN		1
-#define LCD_SCK_TRIS	TRISD
-#define LCD_SCK_PORT	PORTD
+#define LCD_SCK_PIN 1
+#define LCD_SCK_TRIS TRISD
+#define LCD_SCK_PORT PORTD
 
-#define LCD_MOSI_PIN	0
-#define LCD_MOSI_TRIS	TRISD
-#define LCD_MOSI_PORT	PORTD
+#define LCD_MOSI_PIN 0
+#define LCD_MOSI_TRIS TRISD
+#define LCD_MOSI_PORT PORTD
 
-#define LCD_DC_PIN		2
-#define LCD_DC_TRIS		TRISC
-#define LCD_DC_PORT		PORTC
+#define LCD_DC_PIN 2
+#define LCD_DC_TRIS TRISC
+#define LCD_DC_PORT PORTC
 
-#define LCD_CS_PIN		1
-#define LCD_CS_TRIS		TRISC
-#define LCD_CS_PORT		PORTC
+#define LCD_CS_PIN 1
+#define LCD_CS_TRIS TRISC
+#define LCD_CS_PORT PORTC
 
-#define LCD_RST_PIN		0
-#define LCD_RST_TRIS	TRISC
-#define LCD_RST_PORT	PORTC
+#define LCD_RST_PIN 0
+#define LCD_RST_TRIS TRISC
+#define LCD_RST_PORT PORTC
 
 
 #define LCD_PWR_H  SET_BIT(LCD_PWR_PORT, LCD_PWR_PIN)
