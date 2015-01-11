@@ -7,6 +7,16 @@
 #include "font.h"
 
 
+#define SET_BIT(reg,bit) reg |= (1<<bit)
+#define CLEAR_BIT(reg,bit) reg &= (~(1<<bit))
+
+
+typedef signed char int8_t;
+typedef unsigned char uint8_t;
+typedef signed int int16_t;
+typedef unsigned int uint16_t;
+
+
 #define LCD_PWR_PIN 2
 #define LCD_PWR_TRIS TRISD
 #define LCD_PWR_PORT PORTD
